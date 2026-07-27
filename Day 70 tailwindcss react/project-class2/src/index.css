@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@media (max-width:768px) {
+  .para-btn{
+    display: none;
+  }
+}
+
+.svg-icon{
+  color: white;
+  background-color: rgb(65, 57, 57);
+  padding: 2px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  font-size: 17px;
+}
+
+@media (max-width:900px) {
+ .svg-positon{
+   display: none;
+ }
+}

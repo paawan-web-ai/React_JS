@@ -1,0 +1,33 @@
+.dock{
+    display: flex;
+    position: absolute;
+    gap: 0.5rem;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: rgba(89, 88, 88, 0.281);
+    padding-inline: 1rem;
+    padding-block: 0.75rem;
+    border-radius: 0.75rem;
+
+    backdrop-filter: blur(5px);
+ 
+    .icon{
+        padding: 0.65rem;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        aspect-ratio: 1/1;
+    }
+    .github{
+        background-color: black;
+    }
+    .note{
+        background:linear-gradient(to bottom,rgb(248, 141, 101),rgb(246, 93, 38))
+    }
+    .pdf{
+        background:linear-gradient(to bottom,rgb(250, 97, 97),rgb(249, 60, 60));
+    }
+}

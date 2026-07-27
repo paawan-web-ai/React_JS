@@ -1,0 +1,28 @@
+React - Single Page Applications,(URL Change hone pe kuch nahi hota tha!)
+
+React-router-dom came to solve this problem
+------------------------------------------
+type of routers
+
+-BrowserRouter
+ -History API (HTML5)
+ -URL clean
+ -modern web apps m use hota hai
+ -Good SEO
+ -Needs Server Config
+
+-Hash Router
+ -contains - /courses/#/about(UGLY URL)
+ -Older Browsers
+ -No SEO
+
+-Memory Router
+ -React Native
+
+-Static Router
+ -server sideRendering
+
+--------------------------------
+
+Routes - container
+Route - If Path(URL) is X then show Y
